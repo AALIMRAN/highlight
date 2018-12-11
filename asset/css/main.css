@@ -1,0 +1,315 @@
+.site-branding-area {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+@media only screen and (max-width: 767px) {
+  .site-branding-area {
+    height: 300px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .site-branding-area {
+    height: 300px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1399px) {
+  .site-branding-area {
+    height: 400px;
+  }
+}
+.site-branding-area h1 {
+  font-size: 85px;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+}
+.site-branding-area h1 a {
+  color: #ffffff;
+}
+@media only screen and (max-width: 767px) {
+  .site-branding-area h1 {
+    font-size: 30px;
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .site-branding-area h1 {
+    font-size: 30px;
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1399px) {
+  .site-branding-area h1 {
+    font-size: 50px;
+    letter-spacing: 10;
+  }
+}
+.site-branding-area p.site-description {
+  color: #ffffff;
+  font-size: 62px;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+}
+@media only screen and (max-width: 767px) {
+  .site-branding-area p.site-description {
+    font-size: 20px;
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .site-branding-area p.site-description {
+    font-size: 20px;
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1399px) {
+  .site-branding-area p.site-description {
+    font-size: 30px;
+    letter-spacing: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .nav-bar-area .cssmenu .menu li {
+    display: block;
+    width: 100%;
+  }
+  .nav-bar-area .cssmenu .menu li:first-child a {
+    padding-left: 15px;
+  }
+}
+
+.site-branding-area.noheader-image h1 a {
+  color: #000000;
+}
+.site-branding-area.noheader-image p.site-description {
+  color: #000000;
+}
+
+.admin-info {
+  text-align: center;
+  padding-bottom: 30px;
+  color: #333132;
+}
+.admin-info .admin-image {
+  display: inline-block;
+  border: 20px solid #fdd785;
+  border-radius: 50%;
+  border-bottom-width: 15px;
+  border-right-width: 15px;
+  border-left-width: 15px;
+  margin-top: -110px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+.admin-info p.email {
+  color: #d8ab4b;
+  font-size: 30px;
+}
+
+.content-area {
+  background-color: #000000;
+}
+.content-area .page-header h1.page-title {
+  color: #ffffff;
+  font-weight: 900;
+}
+.content-area section.no-results.not-found * {
+  color: #ffffff;
+}
+.content-area .error-404.not-found {
+  text-align: center;
+}
+.content-area .error-404.not-found .page-content {
+  margin-top: 0;
+}
+.content-area .error-404.not-found .page-content form {
+  margin-top: 50px;
+}
+.content-area .error-404.not-found .page-content form input {
+  border-radius: 0;
+}
+.content-area .error-404.not-found .page-content form button.fa.fa-search {
+  background-color: #d8ab4b;
+  color: #ffffff;
+  padding: 14.5px 20px;
+  margin-left: -6px;
+  border: 0;
+}
+.content-area .error-404.not-found h1 {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 900;
+}
+.content-area .error-404.not-found p {
+  color: #ffffff;
+}
+.content-area article {
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+.content-area article .entry-header .entry-title {
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 0;
+}
+.content-area article .entry-header .entry-title a {
+  color: #333132;
+}
+.content-area article .entry-header .entry-meta {
+  margin-top: 20px;
+}
+.content-area article .entry-header .entry-meta a {
+  color: #333132;
+  font-size: 14px;
+}
+.content-area article .entry-header .entry-meta .slashcss, .content-area article .entry-header .entry-meta span.comments-link:before, .content-area article .entry-header .entry-meta span.cat-links:before, .content-area article .entry-header .entry-meta span.posted-on:before {
+  content: "/";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+.content-area article .entry-header .entry-meta span.tags-links {
+  font-size: 14px;
+  margin-left: 15px;
+}
+.content-area article .entry-header .entry-meta span.posted-on {
+  position: relative;
+  padding-right: 15px;
+}
+.content-area article .entry-header .entry-meta .byline {
+  font-size: 14px;
+  margin-left: 15px;
+}
+.content-area article .entry-header .entry-meta span.cat-links {
+  margin-left: 15px;
+  position: relative;
+  padding-right: 15px;
+}
+.content-area article .entry-header .entry-meta span.comments-link {
+  margin-left: 15px;
+  position: relative;
+  padding-right: 15px;
+}
+.content-area article .entry-header .entry-meta span.edit-link {
+  margin-left: 15px;
+}
+.content-area article footer.entry-footer {
+  margin-top: 30px;
+}
+.content-area article footer.entry-footer a.btn.btn-default {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 10px 15px;
+  border: 0;
+  outline: 0;
+  border-radius: 0;
+}
+.content-area article footer.entry-footer a.btn.btn-default:hover {
+  outline: 0;
+  border: 0;
+}
+.content-area nav.navigation.post-navigation {
+  background: #ffffff;
+  padding: 15px;
+}
+.content-area .comments-area {
+  background-color: #ffffff;
+  padding: 15px;
+}
+.content-area aside section {
+  padding: 20px;
+  background-color: #ffffff;
+}
+.content-area aside section .widget-title {
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #000000;
+  margin-left: -20px;
+  margin-right: -20px;
+  font-weight: 700;
+}
+.content-area aside section .highlight-recent-post-inner {
+  margin-bottom: 30px;
+}
+.content-area aside section .highlight-recent-post-inner .no-postthumbnail {
+  height: 325px;
+  width: 100%;
+  background-color: #ddd;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .content-area aside section .highlight-recent-post-inner .no-postthumbnail {
+    height: 200px;
+  }
+}
+.content-area aside section .highlight-recent-post-inner .no-postthumbnail a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.content-area aside section .highlight-recent-post-inner a {
+  color: #4b4b4b;
+  font-size: 14px;
+}
+.content-area aside section .highlight-recent-post-inner .tage-date-wrapper {
+  column-count: 2;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  padding: 10px 0;
+  font-size: 12px;
+}
+.content-area aside section .highlight-recent-post-inner .tage-date-wrapper a {
+  color: #252525;
+}
+.content-area aside section .highlight-recent-post-inner .tage-date-wrapper .tags {
+  text-align: left;
+}
+.content-area aside section .highlight-recent-post-inner .tage-date-wrapper .date {
+  text-align: right;
+}
+.content-area aside section.widget_recent_entries .widget-title {
+  background-color: #000000;
+  color: #ffffff;
+  margin-top: -15px;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.content-area aside section.widget_search input {
+  width: calc(100% - 50px);
+}
+.content-area aside section.widget_search button {
+  width: 50px;
+  margin-left: -4px;
+  border: 2px solid #000000;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+footer.site-footer {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 30px;
+}
+footer.site-footer a {
+  color: #000000;
+}
+
+/*# sourceMappingURL=main.css.map */
